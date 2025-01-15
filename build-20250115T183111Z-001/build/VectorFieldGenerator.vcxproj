@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41F168BA-7D1C-3EC2-9F6E-257472FEB96D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>VectorFieldGenerator</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VectorFieldGenerator.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VectorFieldGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VectorFieldGenerator.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VectorFieldGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VectorFieldGenerator.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">VectorFieldGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VectorFieldGenerator.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">VectorFieldGenerator</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/uppal/theinj/hhe/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson/include" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/Common/DataModel" /external:I "C:/Users/uppal/theinj/jhk/Common/DataModel" /external:I "C:/Users/uppal/theinj/hhe/Common/Math" /external:I "C:/Users/uppal/theinj/jhk/Common/Math" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/Common/Transforms" /external:I "C:/Users/uppal/theinj/jhk/Common/Transforms" /external:I "C:/Users/uppal/theinj/hhe/IO/Legacy" /external:I "C:/Users/uppal/theinj/jhk/IO/Legacy" /external:I "C:/Users/uppal/theinj/hhe/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/jhk/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/hhe/IO/Core" /external:I "C:/Users/uppal/theinj/jhk/IO/Core" /external:I "C:/Users/uppal/theinj/hhe/IO/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/IO/CellGrid" /external:I "C:/Users/uppal/theinj/hhe/Filters/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/Filters/CellGrid"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\uppal\theinj\jhk\lib\Debug\vtkIOLegacy-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkIOCellGrid-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkIOCore-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkFiltersCellGrid-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkCommonExecutionModel-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkCommonDataModel-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkCommonTransforms-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkCommonMath-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkCommonCore-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtksys-9.4d.lib;ws2_32.lib;dbghelp.lib;psapi.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtktoken-9.4d.lib;C:\Users\uppal\theinj\jhk\lib\Debug\vtkkissfft-9.4d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/Debug/VectorFieldGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/Debug/VectorFieldGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/uppal/theinj/hhe/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson/include" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/Common/DataModel" /external:I "C:/Users/uppal/theinj/jhk/Common/DataModel" /external:I "C:/Users/uppal/theinj/hhe/Common/Math" /external:I "C:/Users/uppal/theinj/jhk/Common/Math" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/Common/Transforms" /external:I "C:/Users/uppal/theinj/jhk/Common/Transforms" /external:I "C:/Users/uppal/theinj/hhe/IO/Legacy" /external:I "C:/Users/uppal/theinj/jhk/IO/Legacy" /external:I "C:/Users/uppal/theinj/hhe/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/jhk/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/hhe/IO/Core" /external:I "C:/Users/uppal/theinj/jhk/IO/Core" /external:I "C:/Users/uppal/theinj/hhe/IO/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/IO/CellGrid" /external:I "C:/Users/uppal/theinj/hhe/Filters/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/Filters/CellGrid"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\uppal\theinj\jhk\lib\Release\vtkIOLegacy-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkIOCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkIOCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkFiltersCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkCommonExecutionModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkCommonDataModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkCommonTransforms-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkCommonMath-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkCommonCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtksys-9.4.lib;ws2_32.lib;dbghelp.lib;psapi.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtktoken-9.4.lib;C:\Users\uppal\theinj\jhk\lib\Release\vtkkissfft-9.4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/Release/VectorFieldGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/Release/VectorFieldGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/uppal/theinj/hhe/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson/include" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/Common/DataModel" /external:I "C:/Users/uppal/theinj/jhk/Common/DataModel" /external:I "C:/Users/uppal/theinj/hhe/Common/Math" /external:I "C:/Users/uppal/theinj/jhk/Common/Math" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/Common/Transforms" /external:I "C:/Users/uppal/theinj/jhk/Common/Transforms" /external:I "C:/Users/uppal/theinj/hhe/IO/Legacy" /external:I "C:/Users/uppal/theinj/jhk/IO/Legacy" /external:I "C:/Users/uppal/theinj/hhe/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/jhk/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/hhe/IO/Core" /external:I "C:/Users/uppal/theinj/jhk/IO/Core" /external:I "C:/Users/uppal/theinj/hhe/IO/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/IO/CellGrid" /external:I "C:/Users/uppal/theinj/hhe/Filters/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/Filters/CellGrid"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkIOLegacy-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkIOCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkIOCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkFiltersCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkCommonExecutionModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkCommonDataModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkCommonTransforms-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkCommonMath-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkCommonCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtksys-9.4.lib;ws2_32.lib;dbghelp.lib;psapi.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtktoken-9.4.lib;C:\Users\uppal\theinj\jhk\lib\MinSizeRel\vtkkissfft-9.4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/MinSizeRel/VectorFieldGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/MinSizeRel/VectorFieldGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/uppal/theinj/hhe/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Common/Core" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWIML" /external:I "C:/Users/uppal/theinj/jhk/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/Utilities/KWSys" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token/vtktoken" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/token" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson/vtknlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson/vtknlohmannjson/include" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/nlohmannjson" /external:I "C:/Users/uppal/theinj/hhe/Common/DataModel" /external:I "C:/Users/uppal/theinj/jhk/Common/DataModel" /external:I "C:/Users/uppal/theinj/hhe/Common/Math" /external:I "C:/Users/uppal/theinj/jhk/Common/Math" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft/vtkkissfft" /external:I "C:/Users/uppal/theinj/jhk/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/ThirdParty/kissfft" /external:I "C:/Users/uppal/theinj/hhe/Common/Transforms" /external:I "C:/Users/uppal/theinj/jhk/Common/Transforms" /external:I "C:/Users/uppal/theinj/hhe/IO/Legacy" /external:I "C:/Users/uppal/theinj/jhk/IO/Legacy" /external:I "C:/Users/uppal/theinj/hhe/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/jhk/Common/ExecutionModel" /external:I "C:/Users/uppal/theinj/hhe/IO/Core" /external:I "C:/Users/uppal/theinj/jhk/IO/Core" /external:I "C:/Users/uppal/theinj/hhe/IO/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/IO/CellGrid" /external:I "C:/Users/uppal/theinj/hhe/Filters/CellGrid" /external:I "C:/Users/uppal/theinj/jhk/Filters/CellGrid"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;kiss_fft_scalar=double;KISSFFT_DLL_IMPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\uppal\theinj\hhe\Common\Core;C:\Users\uppal\theinj\jhk\Common\Core;C:\Users\uppal\theinj\jhk\Utilities\KWIML;C:\Users\uppal\theinj\hhe\Utilities\KWIML;C:\Users\uppal\theinj\jhk\Utilities\KWSys;C:\Users\uppal\theinj\hhe\Utilities\KWSys;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken\token;C:\Users\uppal\theinj\hhe\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token\vtktoken;C:\Users\uppal\theinj\jhk\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\token;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson\vtknlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson\vtknlohmannjson\include;C:\Users\uppal\theinj\jhk\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\ThirdParty\nlohmannjson;C:\Users\uppal\theinj\hhe\Common\DataModel;C:\Users\uppal\theinj\jhk\Common\DataModel;C:\Users\uppal\theinj\hhe\Common\Math;C:\Users\uppal\theinj\jhk\Common\Math;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft\vtkkissfft;C:\Users\uppal\theinj\jhk\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\ThirdParty\kissfft;C:\Users\uppal\theinj\hhe\Common\Transforms;C:\Users\uppal\theinj\jhk\Common\Transforms;C:\Users\uppal\theinj\hhe\IO\Legacy;C:\Users\uppal\theinj\jhk\IO\Legacy;C:\Users\uppal\theinj\hhe\Common\ExecutionModel;C:\Users\uppal\theinj\jhk\Common\ExecutionModel;C:\Users\uppal\theinj\hhe\IO\Core;C:\Users\uppal\theinj\jhk\IO\Core;C:\Users\uppal\theinj\hhe\IO\CellGrid;C:\Users\uppal\theinj\jhk\IO\CellGrid;C:\Users\uppal\theinj\hhe\Filters\CellGrid;C:\Users\uppal\theinj\jhk\Filters\CellGrid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkIOLegacy-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkIOCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkIOCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkFiltersCellGrid-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkCommonExecutionModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkCommonDataModel-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkCommonTransforms-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkCommonMath-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkCommonCore-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtksys-9.4.lib;ws2_32.lib;dbghelp.lib;psapi.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtktoken-9.4.lib;C:\Users\uppal\theinj\jhk\lib\RelWithDebInfo\vtkkissfft-9.4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/RelWithDebInfo/VectorFieldGenerator.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/RelWithDebInfo/VectorFieldGenerator.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\wew\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew" "-BC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds" --check-stamp-file "C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalData.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCXXCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeRCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeSystem.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-targets.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-find-packages.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-properties.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config-version.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-find-package-helpers.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-prefix.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkCMakeBackports.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkEncodeString.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkHashSource.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkMobileDevices.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModule.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleJson.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleSerialization.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleTesting.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkObjectFactory.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkTopologicalSort.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew" "-BC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds" --check-stamp-file "C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalData.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCXXCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeRCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeSystem.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-targets.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-find-packages.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-properties.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config-version.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-find-package-helpers.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-prefix.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkCMakeBackports.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkEncodeString.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkHashSource.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkMobileDevices.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModule.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleJson.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleSerialization.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleTesting.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkObjectFactory.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkTopologicalSort.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew" "-BC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds" --check-stamp-file "C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalData.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCXXCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeRCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeSystem.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-targets.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-find-packages.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-properties.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config-version.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-find-package-helpers.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-prefix.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkCMakeBackports.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkEncodeString.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkHashSource.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkMobileDevices.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModule.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleJson.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleSerialization.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleTesting.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkObjectFactory.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkTopologicalSort.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew" "-BC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds" --check-stamp-file "C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalData.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GenerateExportHeader.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeCXXCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeRCCompiler.cmake;C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\3.30.6\CMakeSystem.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-targets.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-find-packages.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\VTK-vtk-module-properties.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config-version.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-config.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-find-package-helpers.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtk-prefix.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkCMakeBackports.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkEncodeString.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkHashSource.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkMobileDevices.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModule.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleJson.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleSerialization.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkModuleTesting.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkObjectFactory.cmake;C:\Users\uppal\theinj\jhk\lib\cmake\vtk-9.4\vtkTopologicalSort.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\wew\VectorFieldGenerator.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\ZERO_CHECK.vcxproj">
+      <Project>{B9650561-DF11-3A46-A50A-1B489EB8E091}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

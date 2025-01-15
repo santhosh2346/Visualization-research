@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\uppal\OneDrive\Documents\Visual Studio 2022\hope\dsds\CMakeFiles\c40ad9557ccc1cf0e8315248cd8386f0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5C7A512F-B674-3CFC-ABA4-E42F55584563}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

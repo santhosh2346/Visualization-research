@@ -1,0 +1,10 @@
+^C:\USERS\UPPAL\ONEDRIVE\DOCUMENTS\VISUAL STUDIO 2022\HOPE\WEW\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/wew" "-BC:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds" --check-stamp-file "C:/Users/uppal/OneDrive/Documents/Visual Studio 2022/hope/dsds/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
