@@ -1,0 +1,4 @@
+C:/Users/uppal/OneDrive/Desktop/glyph/build/CMakeFiles/squid_glyph.dir
+C:/Users/uppal/OneDrive/Desktop/glyph/build/CMakeFiles/INSTALL.dir
+C:/Users/uppal/OneDrive/Desktop/glyph/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/uppal/OneDrive/Desktop/glyph/build/CMakeFiles/ZERO_CHECK.dir

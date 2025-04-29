@@ -1,0 +1,20 @@
+﻿  main.cxx
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(216,34): warning C4244: 'initializing': conversion from 'double' to 'vtkm::FloatDefault', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(247,26): warning C4244: 'argument': conversion from 'vtkm::Id' to '_Ty', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(247,26): warning C4244:         with
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(247,26): warning C4244:         [
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(247,26): warning C4244:             _Ty=vtkm::Int32
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(247,26): warning C4244:         ]
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(253,26): warning C4244: 'argument': conversion from 'vtkm::Id' to '_Ty', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(253,26): warning C4244:         with
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(253,26): warning C4244:         [
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(253,26): warning C4244:             _Ty=vtkm::Int32
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(253,26): warning C4244:         ]
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(264,34): warning C4244: 'initializing': conversion from 'double' to 'vtkm::FloatDefault', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(308,34): warning C4244: 'initializing': conversion from 'double' to 'vtkm::FloatDefault', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(327,26): warning C4244: 'argument': conversion from 'vtkm::Id' to '_Ty', possible loss of data
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(327,26): warning C4244:         with
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(327,26): warning C4244:         [
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(327,26): warning C4244:             _Ty=vtkm::Int32
+C:\Users\uppal\OneDrive\Desktop\glyph\src\main.cxx(327,26): warning C4244:         ]
+  squid_glyph.vcxproj -> C:\Users\uppal\OneDrive\Desktop\glyph\build\Debug\squid_glyph.exe

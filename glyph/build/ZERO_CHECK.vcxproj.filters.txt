@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\uppal\OneDrive\Desktop\glyph\build\CMakeFiles\4fb3ee81f9e6bb410815c5b2c257ebc2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FA65028D-554A-31B0-B7C3-D305597A83DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

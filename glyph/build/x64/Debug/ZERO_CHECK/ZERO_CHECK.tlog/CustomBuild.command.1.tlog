@@ -1,0 +1,10 @@
+^C:\USERS\UPPAL\ONEDRIVE\DESKTOP\GLYPH\BUILD\CMAKEFILES\4FB3EE81F9E6BB410815C5B2C257EBC2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/uppal/OneDrive/Desktop/glyph/src -BC:/Users/uppal/OneDrive/Desktop/glyph/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/uppal/OneDrive/Desktop/glyph/build/SquidGlyph.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
